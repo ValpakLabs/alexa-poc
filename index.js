@@ -4,7 +4,7 @@ console.log('Loading function');
 
 exports.handler = (event, context, callback) => {
     var o = {} // empty Object
-    var key = 'Orientation Sensor';
+    var key = 'Deals';
     o[key] = []; // empty Array, which you can push() values into
     var data = {
         name: 'CiCis Pizza',
